@@ -54,7 +54,7 @@ def printMenu():
         print("\nThis will be a CAR Pordle")
     elif category == "4":
         inFile = 'bands.txt'
-        print("\nThis will be a BAND Pordle")
+        print("\nThis will be a one word BAND name Pordle")
     else:
             inFile = 'animals.txt'
             print("\nThis will be an ANIMAL Pordle")
