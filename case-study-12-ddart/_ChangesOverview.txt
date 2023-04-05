@@ -1,0 +1,19 @@
+Changes Overview:
+
+*Updated Files:
+  styles/style.css
+  
+*Files with No Changes
+  index.html  
+  about.html
+  contact.html
+  checkout.html
+  images/captnspivy.jpg
+  images/cheeseycheese.jpg
+  images/fc.jpg
+  images/comics.jpg
+  videos/thankyoudance.mp4
+  videos/thankyoudance.ogv
+  images/camouflage.png
+  images/tuc.jpg
+  images/kapow.png

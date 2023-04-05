@@ -1,0 +1,510 @@
+/** Added/Updated CSS at bottom **/
+/** Previous CSS **/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Georgia, Times, serif;
+	color: #E5811D;
+}
+
+body {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	color: #222222;
+	background-image: url(camouflage.png);
+}
+
+main {
+	background-color: rgba(255, 255, 255, 0.75);
+	padding: 0.5em 1em;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+header div {
+	width: 100%;
+	height: 8em;
+	background-image: url(tuc.jpg);
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 1000px;
+	padding: 1em;
+	margin: 2em auto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* Layout */
+nav {
+	width: 20%;
+	float: left;
+}
+
+main {
+	width: 80%;
+	float: right;
+}
+
+footer {
+	width: 100%;
+	clear: both;
+}
+
+header {
+	position: relative;
+}
+
+h1 {
+	position: absolute;
+	width: 100%;
+	top: 1em;
+}
+
+/* End Layout */
+
+h1 {
+	color: #FFFFFF;
+}
+
+.wrapper {
+	background-color: #EDD3B8;
+}
+
+h3 {
+	color: #054405;
+	background-image: url(kapow.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: contain;
+	padding-left: 25px;
+}
+
+footer {
+	text-align: center;
+	padding: 1.25em 0.5em 0.25em 0.5em;
+}
+
+nav ul {
+	padding: 1em 1em 0 0;
+}
+
+nav a {
+	display: block;
+	padding: 0.5em;
+	background-color: white;
+	margin: 1em 0;
+	color: #E5811D;
+}
+
+.product {
+	width: 50%;
+	float: left;
+}
+
+.product-info {
+	width: 60%;
+	float: right;
+	padding-left: 1em;
+}
+
+.product-info p {
+	margin: 0;
+}
+
+#small-print {
+	font-size: 0.75em;
+	margin-top: 1em;
+}
+
+.product img {
+	width: 40%;
+	float: left;
+}
+
+.product a {
+	display: block;
+	clear: both;
+	color: #E5811D
+}
+
+td,
+th {
+	border: solid 1px brown;
+	padding: 0.5em;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0.5em;
+}
+
+tfoot {
+	font-style: italic;
+	font-size: 0.75em;
+}
+
+caption {
+	font-style: italic;
+	color: brown;
+	padding-bottom: 1em;
+}
+
+video {
+	margin: 1em auto;
+	display: block;
+}
+
+.contactlink {
+	font-size: 1.5em;
+}
+
+h2,
+h4,
+h5,
+h6 {
+	/* Leaving off h1 and h3 as that would reset the h1 and h3 colors this far down in the stylesheet */
+	color: #A45C13;
+}
+
+nav a {
+	color: #A45C13;
+}
+
+.product a {
+	color: #A45C13;
+}
+
+body {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.centered {
+	text-align: center;
+	margin: auto;
+	width: 22em;
+	/* may not be exactly what they have */
+}
+
+body {
+	background-image: url(../images/camouflage.png);
+}
+
+header div {
+	background-image: url(../images/tuc.jpg);
+}
+
+h3 {
+	background-image: url(../images/kapow.png);
+}
+
+form {
+	width: 80%;
+	margin: auto;
+}
+
+label {
+	display: block;
+}
+
+#contactheading {
+	text-align: center;
+}
+
+input,
+textarea {
+	border: 1px solid #054405;
+}
+
+.req {
+	color: #990000;
+}
+
+.labeltext {
+	width: 15%;
+	display: inline-block;
+}
+
+.textfield {
+	width: 80%;
+	font-size: 1em;
+	margin: 0.5em 0;
+}
+
+.notice {
+	font-size: 0.8em;
+	font-style: italic;
+	margin-top: 0;
+}
+
+legend {
+	font-size: 0.8em;
+	line-height: 1;
+}
+
+select {
+	font-size: 1em;
+	width: 100%;
+	margin-bottom: 0.5em
+}
+
+textarea {
+	width: 100%;
+	height: 10em;
+	font-size: 1em;
+}
+
+.contact-button {
+	font-size: 1em;
+	background-color: white;
+	padding: 0.5em;
+	margin: 1em 1em 0.5em 0;
+	color: #A45C13;
+	border: 1px solid #A45C13;
+}
+
+.shippinglink {
+	display: block;
+}
+
+button {
+	color: white;
+	background-color: #A45C13;
+	font-weight: bold;
+	font-size: 1em;
+	border: 1px solid #A45C13;
+}
+
+.search {
+	width: 100%;
+	padding-right: 1em;
+}
+
+.search-field {
+	width: 70%;
+	float: left;
+	font-size: 1em;
+}
+
+.search-submit {
+	width: 28%;
+	float: right;
+	font-size: 1em;
+	background-color: white;
+	color: #A45C13;
+	border: 1px solid #A45C13;
+}
+
+/** Added/Updated CSS **/
+button:hover {
+	background-color: white;
+	color: #A45C13;
+}
+
+button {
+	padding: 0.25em 0.5em
+}
+
+.product {
+	border: solid 2px white;
+	width: 48%;
+	margin: 1%;
+	padding: 0 1em;
+	height: 600px;
+}
+
+.product:first-of-type,
+.product:last-of-type {
+	border: solid 2px #A45C13;
+}
+
+.product img,
+.product-info {
+	width: 100%
+}
+
+.product img {
+	margin-bottom: 1em;
+}
+
+.product form {
+	width: 100%;
+}
+
+.product button {
+	float: right;
+	margin-top: 1em;
+}
+
+nav a::after {
+	content: " \00BB";
+}
+
+nav a:hover {
+	color: #054405;
+	border: 1px solid #A45C13;
+}
+
+nav a {
+	border: 1px solid white;
+}
+
+.product-info p:first-child::first-letter {
+	font-size: 3em;
+	line-height: 1;
+	font-weight: bold;
+	color: #054405;
+	float: left;
+}
+
+a:link {
+	color: #A45C13;
+}
+
+a:visited {
+	color: #054405;
+}
+
+a:focus {
+	color: #133AA4;
+}
+
+a:hover {
+	color: #1371A4;
+}
+
+::selection {
+	background-color: #054405;
+	color: white;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*------------------------------NEW CODE------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*	1. boring span to display none by default
+	2. boring span to display block when input is checked
+		a. + adjacent sibling to get the label
+		b. > last child of the label is displayed when checked
+	3. officer span to display block by default
+	4. officer span to display none if checked
+*/
+.boring {display: none;}
+#mode:checked + label > :last-child {display:block;}
+.officer {display: block;}
+#mode:checked + label > :first-child {display:none;}
+#mode {display: none;}
+
+/*Use direct descendant selector, set font size of labels to 0.8em:
+	1. Use + symbol for adjacent sibling to checkbox element
+	2. This selects label associated with checkbox through for attribute, in this case, mode.
+	3. The > is used for direct descendants of the label, which are the span elements we want to target.
+*/
+input[type="checkbox"] + label > span 
+	{
+		font-size: 0.8em;
+		background-color: #A45C13;
+		color: white;
+		width: 120px;
+		text-align: center;
+		padding: 0.5em;
+		margin-bottom: 0.5em;
+	}
+/*use the checked pseudo-class, the general sibling selector,
+and a descendant selector, set the span in the heading to display
+none.  ....*/
+input:checked ~ header h1 span {
+	display:none;
+}
+
+/*set product images to display none when input is checked.
+	1. Selects img inside product divs that are inside the main element.
+	2. Must be checked checkbox with id mode
+	~ is subsequent-siblng combinator */
+#mode:checked ~ main .product img {
+	display:none;
+}
+
+/*using last of type, set comics product to display none*/
+#mode:checked ~ main .product:last-of-type {
+	display:none;
+}
+
+/*remove kapow*/
+#mode:checked ~ main h3 {background-image:none;}
+
+#mode:checked ~ main .product {height:auto;}
+
+/*created new span to remove unofficial from title*/ 
+#mode:checked ~ main h3 span {display:none;}
+
+/*changes product 4 title*/
+#mode:checked ~ main .product:nth-of-type(1):before {
+	font-weight: bold;
+	color: #054405;
+	padding-left: 25px;
+	content:"Protein Rations";
+}
+/*changes product 3 title*/
+#mode:checked ~ main .product:nth-of-type(2):before {
+	font-weight: bold;
+	color: #054405;
+	padding-left: 25px;
+	content:"C-47s";	
+}
+/*changes product 2 title*/
+#mode:checked ~ main .product:nth-of-type(3):before {
+	font-weight: bold;
+	color: #054405;
+	padding-left: 25px;
+	content:"Aspirin";
+	
+}
+
+/*legal notice standard font*/
+#mode:checked ~ main #small-print{font-size:1em;}
+
+/*get rid of drop cap*/
+#mode:checked ~ main .product-info p:first-child::first-letter {
+	font-size: 1em;
+	font-weight:400;
+	line-height:1.5;
+}
+
+/*replace footer text
+i can't figure out how to get rid of the space*/
+#mode:checked ~ footer span {
+	visibility:hidden;
+	}
+#mode:checked ~ footer span::after{
+	visibility: visible;
+	content: "the United North Mexamericadian Army";
+}
+
+/*removes shipping details*/
+#mode:checked ~ main #shipping {display: none;}
+
+/*adds TBD to h2*/
+#mode:checked ~ main h2:nth-of-type(3)::after {content:" - TBD"}
+
+#mode:checked ~ main fieldset {display: none;}
+
+#mode:checked ~ main video {display: none;}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Unofficial Commissary - Home</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div class="wrapper">
+        <input type="checkbox" id="mode">
+            <label for="mode">
+                <span class="officer">Officer Mode</span>
+                <span class="boring">Boring Mode</span>
+            </label>
+        <header>
+            <div></div>
+            <h1>The <span>Unofficial</span> Commissary</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <form class="search" method="post" action="https://johnrhea.com/undead-form-practice.php">
+                <input class="search-field" type="search" placeholder="Search...">
+                <input class="search-submit" type="submit" value="Go">
+            </form>
+        </nav>
+        <main>
+            <p>From canned meat to canned cheese, from gags to comics featuring your favorite drill sergeants and higher
+                ups, The Unofficial Commissary has it all!</p>
+            <h2>Products</h2>
+
+            <a class="shippinglink" href="about.html#shipping" target="_blank">Shipping Rates</a>
+            <div class="product">
+                <a href="checkout.html">
+                    <h3><span>Captain Spivy’s Potted Meats*</span></h3>
+                    <img src="images/captnspivy.jpg" alt="Tasty potted meat">
+                </a>
+                <div class="product-info">
+                    <p>All natural meat substitute. It tastes almost like meat!</p>
+                    <p id="small-print"><i>*Legal Notice:</i> classification of “meat” not evaluated by the FDA or any
+                        descendant organization.</p>
+                </div>
+                <form action="checkout.html">
+                    <input type="hidden" name="purchase" value="meat">
+                    <button type=“submit”>Buy Now</button>
+                </form>
+            </div>
+            <div class="product">
+                <a href="checkout.html">
+                    <h3><span>Cheesey Cheese, Cheese flavored Spread</span></h3>
+                    <img src="images/cheeseycheese.jpg" alt="The cheesiest cheese (flavoring)">
+                </a>
+                <div class="product-info">
+                    <p>Mmmm-mmmh tasty! Plus safe for the lactose intolerant. Contains no milk or anything natural of
+                        any kind!</p>
+                </div>
+                <form action="checkout.html">
+                    <input type="hidden" name="purchase" value="cheese">
+                    <button type=“submit”>Buy Now</button>
+                </form>
+            </div>
+            <div class="product">
+                <a href="checkout.html">
+                    <h3><span>Fake Contagion</span></h3>
+                    <img src="images/fc.jpg" alt="prank contagion">
+                </a>
+                <div class="product-info">
+                    <p>Scare your friends and bunk mates with this fake zombie contagion. Causes gray skin and moaning
+                        but no actual zombiness. Great for parties and staff meetings.</p>
+                </div>
+                <form action="checkout.html">
+                    <input type="hidden" name="purchase" value="contagion">
+                    <button type=“submit”>Buy Now</button>
+                </form>
+            </div>
+            <div class="product">
+                <a href="checkout.html">
+                    <h3><span>Spittin’ Mad Comics #1</span></h3>
+                    <img src="images/comics.jpg" alt="hilarious comic cover">
+                </a>
+                <div class="product-info">
+                    <p>You’ll laugh, scream and, cry at the insane adventures of Waffles the super dog and his sidekick
+                        Sergeant Samuel “Spittin’ Mad” McGee himself.</p>
+                </div>
+                <form action="checkout.html">
+                    <input type="hidden" name="purchase" value="comics">
+                    <button type=“submit”>Buy Now</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            &copy; 2037 All rights reserved by <span>PFC George Frances Wiggins IV</span>.
+        </footer>
+    </div>
+</body>
+
+</html>

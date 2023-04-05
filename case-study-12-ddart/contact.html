@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>The Unofficial Commissary - Contact</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<div class="wrapper">
+		<input type="checkbox" id="mode">
+            <label for="mode">
+                <span class="officer">Officer Mode</span>
+                <span class="boring">Boring Mode</span>
+            </label>
+		<header>
+			<div></div>
+			<h1>The<span>Unofficial</span> Commissary</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<form class="search" method="post" action="https://johnrhea.com/undead-form-practice.php">
+				<input class="search-field" type="search" placeholder="Search...">
+				<input class="search-submit" type="submit" value="Go">
+			</form>
+		</nav>
+		<main>
+			<h2>Contact Us</h2>
+			<p>Call us at <a href="tel:555-555-5556">555-555-5556</a> or Text us at <a
+					href="sms:555-555-5557">555-555-5557</a></p>
+			<h2 id="contactheading">Questions, Comments, or Zombie secrets?</h2>
+			<form method="post" action="https://johnrhea.com/unead-form-practice.php">
+				<label><span class="labeltext">Name:<span class="req">*</span></span> <input class="textfield"
+						type="text" name="fullname" required></label>
+				<label><span class="labeltext">Email:<span class="req">*</span></span> <input class="textfield"
+						type="email" name="email" required></label>
+				<label><input type="checkbox" name="emaillist"> Join our Email List</label>
+				<p class="notice">We promise not to send you any Spam unless you order it.</p>
+				<fieldset>
+					<legend>Comments, Questions, Esoteric Theories, and Snide Remarks</legend>
+					<label>I want to talk about…
+						<select name="topic">
+							<!-- **Note: Value names may vary -->
+							<optgroup label="Support">
+								<option value="cheese">How cheesy is your naturally cheesy flavored cheese?</option>
+								<option value="meat">I was looking for actual meat</option>
+								<option value="comics">I’m offended by my portrayal in your comic books</option>
+								<option value="gnawing">I have a zombie gnawing on my shoulder. Help!</option>
+							</optgroup>
+							<optgroup label="Billing">
+								<option value="meatofthemonth">I did not sign up for your meat of the month club
+								</option>
+								<option value="twice">You seem to be charging twice the amount of any other store
+								</option>
+								<option value="tastingfee">Why does my canned cheese order have a $20 tasting fee?
+								</option>
+							</optgroup>
+							<optgroup label="Questions">
+								<option value="stock">Why don’t you stock/stock enough of my favorite meat paste?
+								</option>
+								<option value="morecomics">Will you be doing more comics?</option>
+								<option value="debonair">How did you become so objectively debonair and handsome?
+								</option>
+							</optgroup>
+							<optgroup label="Other">
+								<option value="other">I have something else to say</option>
+							</optgroup>
+						</select>
+					</label>
+					<label>Comments:<span class="req">*</span> <textarea required></textarea></label>
+				</fieldset>
+				<input class="contact-button" type="reset">
+				<input class="contact-button" type="submit">
+			</form>
+		</main>
+		<footer>
+			&copy; 2037 All rights reserved by <span>PFC George Frances Wiggins IV</span>.
+		</footer>
+	</div>
+</body>
+
+</html>
