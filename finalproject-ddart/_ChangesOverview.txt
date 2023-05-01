@@ -1,0 +1,25 @@
+Changes Overview:
+
+*Updated Files
+  styles/style.css
+  about.html
+  checkout.html
+  
+*Files with No Changes
+  index.html  
+  contact.html
+  images/captnspivy.jpg
+  images/cheeseycheese.jpg
+  images/fc.jpg
+  images/comics.jpg
+  videos/thankyoudance.mp4
+  videos/thankyoudance.ogv
+  images/camouflage.png
+  images/tuc.jpg
+  images/kapow.png
+  styles/print.css
+  fonts/OpenSans-Bold.ttf
+  fonts/OpenSans-BoldItalic.ttf
+  fonts/OpenSans-Italic.ttf
+  fonts/OpenSans-Regular.ttf
+  fonts/PressStart2P-Regular.ttf
