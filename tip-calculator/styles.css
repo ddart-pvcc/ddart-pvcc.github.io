@@ -11,3 +11,21 @@
 .hidden {
   display: none;
 }
+
+img {
+  margin-left: 30em;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+}
+
+.form-group label {
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+#totalTips {
+  margin-left: 6em;
+}
