@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tip Calculator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  
+</head>
+
+<body>
+  
+  <img src="logo.png" alt="starr hill">
+  <div id="managerForm" class="container">
+    
+    <h2>Tip Calculator</h2>
+    <form>
+  <div class="form-group">
+    <label for="bartenders">Number of Bartenders:</label>
+    <input type="number" id="bartenders" min="1">
+  </div>
+
+  <div class="form-group">
+    <label for="totalTips">Total Tips:</label>
+    <input type="number" id="totalTips">
+  </div>
+
+   
+</form>
+    <br>
+    <button onclick="createInputs()">Submit</button>
+  </div>
+
+  <div id="hoursForm" class="container hidden">
+    <h2>Enter Hours Worked</h2>
+    <div id="inputsContainer"></div>
+    <br>
+    <button onclick="calculateTips()">Calculate Tips</button>
+  </div>
+
+  <div id="result" class="container hidden">
+    <h2>Tip Calculation Result</h2>
+    <table id="tipTable" class="hidden">
+      <thead>
+        <tr>
+          <th>Bartender</th>
+          <th>Hours</th>
+          <th>Tips</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+    <p id="tipAmount"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
